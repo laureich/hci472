@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html {font-size: 100%;} /*16px*/
+
+.sans-1-h3{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.nunito-h1{
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-size: 4.209rem;
+  font-weight: 700;
+}
+
+.nunito-body{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.nunito-h2{
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-size: 3.157rem;
+  font-weight: 700;
+}
+
+.nunito-h3{
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-size: 2.369rem;
+  font-weight: 700;
+}
+
+.nunito-h4{
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-size: 1.777rem;
+  font-weight: 700;
+}
+
+.nunito-emphasis{
+  font-family: 'Nunito', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.nunito-link{
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #0645AD
+}
+
+.bold{
+  font-weight: 700;
+}
