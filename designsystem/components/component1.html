@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Lauryn Reich - Design System</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- This is where you put your google font in if applicable -->
+<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+
+<!-- This is the link to the toggle hamburger -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="favicon" href="../img/Favicon.png">
+  <link  rel="stylesheet"  href="../css/prism.css"/>
+
+
+  </head>
+  <body>
+
+    <div class="d-flex">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="toggle-btn">
+              <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1" >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+               </button>
+          </div>
+		<div class="p-4 pt-6">
+      <a href="../index.html" class="logo">
+        <img src="../img/Color Logo.png" class="card-img-top" alt="Color Logo">
+      </a>
+
+	       <ul class="list-unstyled components">
+
+	          <li>
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+
+			            <ul class="collapse list-unstyled" id="homeSubmenu">
+		                <li>
+		                    <a href="../foundation/type.html">Typography</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/color.html">Color</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/logo.html">Logo</a>
+		                </li>
+			            </ul>
+	          </li>
+
+	          <li class="active">
+              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+              <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+               <li>
+                    <a href="#">Navigation</a>
+                </li>
+                <li>
+                    <a href="component2.html">Buttons</a>
+                </li>
+                <li>
+                    <a href="component3.html">Footer</a>
+                </li>
+              </ul>
+	          </li>
+
+	          <li>
+              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+              <ul class="collapse list-unstyled" id="PatternsSubmenu">
+                 <li>
+                    <a href="../patterns/pattern1.html">Projects Page</a>
+                </li>
+                <li>
+                    <a href="../patterns/pattern2.html">About Page</a>
+                </li>
+
+              </ul>
+	          </li>
+
+
+	        </ul>
+
+
+
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div class = "container">
+          <div class = "row p-5 pt-6">
+            <div id="content">
+
+              <h1 class="merriweather-h1">Navigation</h1>
+              <p class="lato-body">The navigation bar is essential to the design system and must be included on all pages of the website. This component is comprised of a menu with links that direct the user to other pages within the site. </p>
+              <hr>
+              <h4 class="merriweather-h4">Example</h4>
+              <p class="lato-body">The following navigation bar example is responsive. Adjust the browser size to view responsive behaviors.
+              </p>
+
+              <div class="row">
+                <div class="row">
+                <div class="col">
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="../img/Color Logo.png" width="95" class="d-inline-block align-top" alt="Lauryn Logo"></a>
+                        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end nav-bg" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active navtext" aria-current="page" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link navtext" href="#">About</a>
+                        </li>
+                        </ul>
+                    </div>
+                  </div>
+                  </nav>
+                  <br>
+
+                <h4 class="merriweather-h4">Accessibility</h4>
+                <p class="lato-body">The navigation bar uses colors from the color palette section to ensure an accessible contrast ratio. Icons should include descriptive alt attributes that inform the user where the link will direct them.
+                </p>
+
+                <h4 class="merriweather-h4">Usage</h4>
+                <p class="lato-body">The navigation bar must be included on all pages created within this design system.
+                </p>
+
+              <!-- Code example - this is what the prism.js and css are for added in this page - replace: all '<' with &lt; and  '>' with &gt; and all quotes with &quot; -->
+
+              <h4 class="merriweather-h4">Code</h4>
+                  <pre class="language-markup"><code>
+                      &lt;div class=&quot;row&quot;&gt;
+                        &lt;div class=&quot;row&quot;&gt;
+                        &lt;div class=&quot;col&quot;&gt;
+                          &lt;nav class=&quot;navbar navbar-expand-lg navbar-light&quot;&gt;
+                            &lt;div class=&quot;container-fluid&quot;&gt;
+                              &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;
+                                &lt;img src=&quot;../img/Color Logo.png&quot; width=&quot;95&quot; class=&quot;d-inline-block align-top&quot; alt=&quot;Lauryn Logo&quot;&gt;&lt;/a&gt;
+                                &lt;button class=&quot;navbar-toggler custom-toggler&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#navbarNav&quot; aria-controls=&quot;navbarNav&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+                                &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+                                &lt;/button&gt;
+                                &lt;div class=&quot;collapse navbar-collapse justify-content-end nav-bg&quot; id=&quot;navbarNav&quot;&gt;
+                                &lt;ul class=&quot;navbar-nav&quot;&gt;
+                                &lt;li class=&quot;nav-item&quot;&gt;
+                                &lt;a class=&quot;nav-link active navtext&quot; aria-current=&quot;page&quot; href=&quot;#&quot;&gt;Projects&lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class=&quot;nav-item&quot;&gt;
+                                &lt;a class=&quot;nav-link navtext&quot; href=&quot;#&quot;&gt;About&lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;/nav&gt;
+                      </code>
+                  </pre><!-- Code example -->
+
+
+        </div>      <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+</div>
+      <script src="../js/prism.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
